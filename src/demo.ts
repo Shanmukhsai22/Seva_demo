@@ -1,0 +1,6 @@
+import type { Event } from './lib';
+// Preview content only. These are not announced events or bookable inventory.
+export const demoEvents: Event[] = [
+  { id: 'preview-1', title: { en: 'Sri Satyanarayana Swamy Vratham', te: 'శ్రీ సత్యనారాయణ స్వామి వ్రతం', hi: 'श्री सत्यनारायण स्वामी व्रत' }, description: { en: 'Come together for prayer, gratitude, and the blessings of Sri Satyanarayana Swamy.', te: 'శ్రీ సత్యనారాయణ స్వామి ఆశీస్సుల కోసం భక్తితో కలిసి పూజలో పాల్గొనండి.', hi: 'प्रार्थना और श्री सत्यनारायण स्वामी के आशीर्वाद के लिए साथ आएँ।' }, starts_at: '2026-11-15T03:30:00+00:00', venue: { en: 'Venue to be announced', te: 'వేదిక త్వరలో ప్రకటించబడుతుంది', hi: 'स्थान जल्द घोषित होगा' }, fee_paise: 0, capacity: 100, published: true },
+  { id: 'preview-2', title: { en: 'An evening of devotion', te: 'భక్తి సంధ్య', hi: 'भक्ति संध्या' }, description: { en: 'A peaceful gathering of bhajans, reflection, and community prayer.', te: 'భజనలు, ఆధ్యాత్మిక చింతన మరియు సామూహిక ప్రార్థనలతో ప్రశాంతమైన సమావేశం.', hi: 'भजन, चिंतन और सामूहिक प्रार्थना का एक शांत आयोजन।' }, starts_at: '2026-11-22T12:30:00+00:00', venue: { en: 'Venue to be announced', te: 'వేదిక త్వరలో ప్రకటించబడుతుంది', hi: 'स्थान जल्द घोषित होगा' }, fee_paise: 0, capacity: 100, published: true },
+];
